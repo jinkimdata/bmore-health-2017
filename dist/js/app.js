@@ -15,7 +15,7 @@ var bmoreHealth = {
         });
         $(".icon-facebook-squared").on("click", function() {
             var picture = "http://data.baltimoresun.com/news/neighborhood-health/images/thumb.jpg";
-            var title = "Baltimore Neighborhood Health 2016";
+            var title = "Baltimore Neighborhood Health";
             var description = "Take the pulse of Baltimore's neighborhoods in this in-depth data dive.";
             var url = "http://data.baltimoresun.com/news/neighborhood-health";
             var facebook_url = "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" + url + "&picture=" + picture + "&name=" + title + "&description=" + description + "&redirect_uri=http://www.facebook.com";

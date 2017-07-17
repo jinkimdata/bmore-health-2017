@@ -21,7 +21,7 @@ html(class="no-js", lang="en")
 	head
 		//Basic page needs
 		meta(charset="utf-8")
-		title Baltimore Neighborhood Health 2016
+		title Baltimore Neighborhood Health
 		meta(name="description", content="Take the pulse of Baltimore's neighborhoods in this in-depth data dive.")
 		meta(name="author", content="The Baltimore Sun") 
 		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
@@ -30,7 +30,7 @@ html(class="no-js", lang="en")
 		link(rel="stylesheet", type="text/css", href=datalink + "css/fontello.css")
 
 		//Facebook Stuff
-		meta(property="og:title", content="Baltimore Neighborhood Health 2016")
+		meta(property="og:title", content="Baltimore Neighborhood Health")
 		meta(property="og:url", content="http://data.baltimoresun.com/news/neighborhood-health")
 		meta(property="og:image", content="http://data.baltimoresun.com/news/neighborhood-health/images/thumb.jpg")
 		meta(property="og:site_name", content="The Baltimore Sun")
@@ -40,7 +40,7 @@ html(class="no-js", lang="en")
 		meta(name="twitter:card", content="summary")
 		meta(name="twitter:site", content="@baltimoresun")
 		meta(name="twitter:creator", content="@baltsundata")
-		meta(name="twitter:title", content="Baltimore Neighborhood Health 2016")
+		meta(name="twitter:title", content="Baltimore Neighborhood Health")
 		meta(name="twitter:description", content="Take the pulse of Baltimore's neighborhoods in this in-depth data dive.")
 		meta(name="twitter:image", content="http://data.baltimoresun.com/news/neighborhood-health/images/thumb.jpg")
 		meta(name="twitter:domain", content="baltimoresun.com")
@@ -58,8 +58,7 @@ html(class="no-js", lang="en")
 				h1 Baltimore
 					span Neighborhood
 					span Health
-					span (2016)
-				p The Baltimore Sun’s analysis of Baltimore City Health Department’s 
+				p The Baltimore Sun’s visualization of Baltimore City Health Department’s 
 					br
 					a(href="http://health.baltimorecity.gov/neighborhoods/neighborhood-health-profile-reports" target="_blank") 2017 Neighborhood Health Profiles
 			.navbar
@@ -131,7 +130,7 @@ html(class="no-js", lang="en")
 									span - - -
 					//- p.directions Click on the map to focus a specific neighborhood
 					include includes/bmore-neighborhoods.svg
-					.map__averageLabel City AVG: 
+					.map__averageLabel City Overall: 
 						span -
 					.map__legend
 						.map__legend__average.map__legend__average--marker
@@ -198,7 +197,7 @@ html(class="no-js", lang="en")
 			include includes/ad-for-body.html
 		footer
 			p.source Source: 
-				a(href="http://health.baltimorecity.gov/neighborhoods/neighborhood-health-profile-reports" target="_blank") Baltimore City Health Department
+				a(href="http://health.baltimorecity.gov/neighborhoods/neighborhood-health-profile-reports" target="_blank") Baltimore City Health Department 2017 Neighborhood Health Profiles
 			hr
 			p.credit Jin Bae Kim / 
 				a(href="http://www.baltimoresun.com/news/data/" target="_blank") The Baltimore Sun
